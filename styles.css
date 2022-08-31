@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Source Serif Pro';
+    font-weight: 100;
+    font-size: 48px;
+    
+    display: grid;
+    justify-items: center;
+    margin-top: -2cm;
+}
+
+:hover h1{
+    color: rgba(56, 46, 46, 0.693) ;
+    transition:  ease-in-out 1.2s;
+
+}
+
+:active h1{
+    color: black;
+}
+
+h1{
+    
+    color: rgb(23, 23, 23);
+    font-family: 'Source Serif Pro', SemiBold;
+    
+    font-weight: 800;
+    font-size: 100px;
+
+    display: grid;
+    justify-items: center;
+    margin-top: -2mm;
+}
+
+.ale{
+    display: grid;
+}
+.ale img{
+    margin: auto;
+    max-width: 300px;
+    max-height: auto;
+    margin-top: 2cm;
+}
+
+
+
+
+
+a{
+    display: flexbox;
+    justify-content: space-around; 
+    font-family: 'Source Serif Pro', serif;
+    
+    font-size: 4mm;
+    font-weight: 500;
+    
+}
+
+.eee{
+    word-spacing: 3cm;
+    justify-content: space-around;
+    color: black;
+}
+
+a:link{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 6mm;
+    
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
+    color: rgb(174, 255, 61);
+}
+
+a:visited{
+    color: black;
+}
